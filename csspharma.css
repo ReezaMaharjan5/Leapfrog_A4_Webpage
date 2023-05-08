@@ -1,0 +1,297 @@
+body{
+    font-family: "Roborto", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.con1{
+    background-image: url("Rectangle 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;    
+}
+.header:hover{
+    text-decoration: underline;
+    color: rgb(42, 149, 90);
+}
+.conimg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+hr{
+    /* left: 140px; */
+    align-self: center;
+    margin-left: 20%;
+    /* justify-content: center; */
+    height: 3px;
+    background: radial-gradient(47.25% 15652% at 2.75% 100%, #043CAA 0%, #043CAA 95.03%, #1BC768 98.36%);
+    border-radius: 50px;
+    margin-left: 46px;
+    margin-bottom: 80px;
+    border:none;
+    width: 91px;
+    position:absolute;
+}
+
+.hbutton, .hbutton1{
+    background-color: transparent;
+    border: none;
+    border: 1px solid #ffffff;
+    margin: 0%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.hbutton1{
+    background-color: #ffffff;
+}
+/* .bluegreen{
+    height: 10px;
+    width: 400px;
+    align-self: center;
+}
+.bluegreen::before { 
+        content: "";
+        background-color: yellow;
+}
+.bluegreen::before { 
+    content: "";
+    background-color: rgb(255, 0, 111);
+} */
+.hbutton1 a{
+    color: rgba(4, 60, 170, 1);
+
+}
+
+.righttxt{
+    margin-top: 80px;
+}
+
+.middle{
+    font-size: 36px;
+    align-content: center;
+    align-self: center;
+    color: rgba(4, 60, 170, 1);
+}
+
+
+.lefttxt{
+    margin: 80px 0px 20px 30px;
+    width: 60%;
+}
+
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 24px;
+}
+h4{
+    font-size: 18px;
+
+}
+.foot2 li{
+    font-size: 16px;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 16px;
+}
+
+header{
+    margin: 0% 0% auto;
+    padding: 10px 100px;
+}
+
+.p.lefttxt{
+    font-size: 18px;
+    width: 40%;
+}
+
+button{
+    border: none;
+    text-decoration: none;
+    border-radius: 16px;
+   
+    padding: 7px 28px;
+}
+
+.icon{
+    padding: 10px;
+    margin: auto;
+
+
+}
+
+button:hover{
+    background-color: rgb(42, 149, 90);
+}
+
+.simg{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.gbutton{
+    background-color: rgba(27, 199, 104, 1);
+    
+}
+
+.gbutton2{
+    border-radius: 0px 16px 16px 0px;
+    background-color: rgba(27, 199, 104, 1);
+    color: green;
+}
+
+.searchi a{
+    font-style: italic;
+}
+
+footer.ul{
+    list-style-type: none; 
+    margin-left: 20px;
+}
+
+input{
+    /* border: 1px solid gray; */
+    border: none;
+    border-radius: 16px 0px 0px 16px;
+    padding: 2px 6px;
+    margin-right: -4px;
+    width: 300px;
+    height: 25.2px;
+}
+input:active{
+    border: none;
+    border: 0.01px solid gray; 
+    background-color:rgb(178, 235, 204);
+
+}
+input::placeholder{
+    padding-left: 12px;
+}
+
+.searchi input::placeholder{
+    font-style: italic;
+}
+.gbutton3{
+    border: 1px solid rgba(27, 199, 104, 1);
+    background-color: white;
+    margin-top: 20px;
+}
+
+.gbutton3 a{
+    color: rgba(27, 199, 104, 1);
+}
+
+.con2_long{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 60px 60px 60px 70px;
+    padding: 20px;
+}
+
+.simg{
+    margin: 20px 400px;
+    align-items: center;
+}
+.simg img{
+    margin-left: 80px;
+}
+
+h3{
+    font-size: 24px;
+    color: rgba(4, 60, 170, 1);
+}
+
+.c2_one, .c2_four, .c2_five{
+    padding-top: 100px;
+}
+
+.con4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 130px;
+}
+
+.right4{
+    width: 25%;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 100px;
+    flex: 1;
+}
+
+
+.right4 p{
+    color: rgba(122, 122, 122, 1);
+}
+.right4 .author{
+    color: rgba(4, 60, 170, 1);
+    margin-bottom: 40px;
+}
+
+.img4{
+    margin: 0px;
+    background-size: cover;
+    padding: 0;
+}
+footer{
+    background-color: rgba(4, 60, 170, 1);
+    color: white;
+    padding: 30px 100px 10px 100px;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: -30px;
+}
+
+.foot1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.sign{
+    width: 400px;
+}
+
+.foot2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.express{
+    width: 180px;
+}
+.express img{
+    margin-left: -10px;
+}
+.foot3{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.ftitle{
+    font-size: 18px;
+    margin-left: 10px;
+
+}
