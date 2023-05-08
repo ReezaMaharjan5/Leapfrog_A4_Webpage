@@ -47,19 +47,7 @@ hr{
 .hbutton1{
     background-color: #ffffff;
 }
-/* .bluegreen{
-    height: 10px;
-    width: 400px;
-    align-self: center;
-}
-.bluegreen::before { 
-        content: "";
-        background-color: yellow;
-}
-.bluegreen::before { 
-    content: "";
-    background-color: rgb(255, 0, 111);
-} */
+
 .hbutton1 a{
     color: rgba(4, 60, 170, 1);
 
